@@ -13,12 +13,12 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'sudo ssh devops@s1 \'hostname\''
+                sh 'sudo ssh root@s1 \'hostname\''
             }
         }
         stage("Second step") {
             steps {
-                sh 'ssh devops@s1 \'uptime\''
+                sh 'ssh root@s1 \'uptime\''
             }
         }
     }
