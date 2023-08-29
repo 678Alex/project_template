@@ -1,6 +1,4 @@
 FROM alpine
 RUN mkdir ppp
-CMD tail -f /dev/null
-CMD tail -f /dev/null
-CMD tail -f /dev/null
+RUN mkdir kkk
 CMD tail -f /dev/null
